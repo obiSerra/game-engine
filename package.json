@@ -1,0 +1,32 @@
+{
+  "name": "small-game-engine",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start:dev": "node ./server.js",
+    "start:dist": "node ./server.js -p",
+    "dist": "npm run build"
+  },
+  "author": "Roberto Serra <js13k@rserra.it>",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1",
+    "through2": "^4.0.2"
+  },
+  "dependencies": {
+    "express-compile-sass": "^4.0.0",
+    "prettier": "^2.1.1"
+  }
+}
